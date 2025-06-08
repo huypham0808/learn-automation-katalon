@@ -1,48 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC01-TestLogin</name>
+   <name>TC03-LokedOutUser</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>3ca10367-66df-4c3f-8b74-29ff0c510cb7</testCaseGuid>
+   <testCaseGuid>ce9b3c7c-438f-4cbf-a955-3ec90d5ecac8</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c7ce3fe7-f5b0-45b0-844a-423f83c575b8</variableId>
+      <variableId>2e9ecfbb-7dc1-450a-b424-151df557722c</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>8516e529-b074-41ba-850b-c0e1d8af97de</variableId>
+      <variableId>57d6a7f2-08f2-4e9f-868f-27e8676a0a25</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>920c82b4-4dc6-4266-b3b0-e0ef6d52758f</variableId>
+      <variableId>9d4f9090-f4f9-4709-85e7-d3726ea4e9c6</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'standard_user'</defaultValue>
+      <defaultValue>'locked_out_user'</defaultValue>
       <description></description>
-      <id>c7ce3fe7-f5b0-45b0-844a-423f83c575b8</id>
+      <id>2e9ecfbb-7dc1-450a-b424-151df557722c</id>
       <masked>false</masked>
-      <name>username</name>
+      <name>lockedUsername</name>
    </variable>
    <variable>
       <defaultValue>'secret_sauce'</defaultValue>
       <description></description>
-      <id>8516e529-b074-41ba-850b-c0e1d8af97de</id>
+      <id>57d6a7f2-08f2-4e9f-868f-27e8676a0a25</id>
       <masked>false</masked>
-      <name>password</name>
+      <name>lockedPassword</name>
    </variable>
    <variable>
-      <defaultValue>'Swag Labs'</defaultValue>
+      <defaultValue>'Epic sadface: Sorry, this user has been locked out.'</defaultValue>
       <description></description>
-      <id>920c82b4-4dc6-4266-b3b0-e0ef6d52758f</id>
+      <id>9d4f9090-f4f9-4709-85e7-d3726ea4e9c6</id>
       <masked>false</masked>
-      <name>expectedHomePage</name>
+      <name>lockedMessage</name>
    </variable>
 </TestCaseEntity>
