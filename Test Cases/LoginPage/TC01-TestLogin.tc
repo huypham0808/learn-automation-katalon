@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC01-TestLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3ca10367-66df-4c3f-8b74-29ff0c510cb7</testCaseGuid>
+   <variable>
+      <defaultValue>'standard_user'</defaultValue>
+      <description></description>
+      <id>c7ce3fe7-f5b0-45b0-844a-423f83c575b8</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'secret_sauce'</defaultValue>
+      <description></description>
+      <id>8516e529-b074-41ba-850b-c0e1d8af97de</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Swag Labs'</defaultValue>
+      <description></description>
+      <id>920c82b4-4dc6-4266-b3b0-e0ef6d52758f</id>
+      <masked>false</masked>
+      <name>expectedHomePage</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://www.saucedemo.com/'</defaultValue>
+      <description></description>
+      <id>4d9bd582-04bb-4000-9ba6-fd73882a4b5a</id>
+      <masked>false</masked>
+      <name>urlLogin</name>
+   </variable>
+</TestCaseEntity>
