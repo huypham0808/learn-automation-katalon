@@ -1,34 +1,23 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-WebUI.navigateToUrl('https://www.saucedemo.com/')
-def txtUserName = findTestObject('Object Repository/ObjectLoginPage/username')
-def txtpassword = findTestObject('Object Repository/ObjectLoginPage/password')
-def btnLogin = findTestObject('Object Repository/ObjectLoginPage/btnLogin')
-def errorMessageEle = findTestObject('Object Repository/ObjectLoginPage/errorMessageLogin')
+def txtUserName = findTestObject('Object Repository/LoginPage/username')
+def txtPassword = findTestObject('Object Repository/LoginPage/password')
+def btnLogin = findTestObject('Object Repository/LoginPage/btnLogin')
+def invalidCredsError = findTestObject('Object Repository/LoginPage/errorMessageLogin')
 
+"TEST STEP"
+"Step 1: Open browser and navigate to url"
+WebUI.openBrowser(GlobalVariable.URL)
 
+"Step 2: Login with invalid credentials"
 WebUI.setText(txtUserName, invalidUsername)
-WebUI.setText(txtpassword, invalidPassword)
+WebUI.setText(txtPassword, invalidPassword)
 WebUI.click(btnLogin)
 
-def actualErrorValue = WebUI.getText(errorMessageEle)
-
+"Step 3: Verify an error message is displayed: 'Epic sadface: Username and password do not match'"
+def actualErrorValue = WebUI.getText(invalidCredsError)
 WebUI.verifyEqual(actualErrorValue, errorMessage)
