@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CompleteMessageCheckout</name>
+   <tag></tag>
+   <elementGuidId>549e61ab-8232-44f7-9c0e-0fc5f8ddc46f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>h2[data-test=complete-header]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>h2[data-test=complete-header]</value>
+      <webElementGuid>6d358adb-86d8-4a96-aae0-89f28d717d7e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

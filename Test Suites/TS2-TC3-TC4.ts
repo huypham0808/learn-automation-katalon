@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS1</name>
+   <name>TS2-TC3-TC4</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,61 +10,43 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>75a85550-5a5c-4258-a578-02d6224c754b</testSuiteGuid>
+   <testSuiteGuid>c1a3912d-764e-4023-8548-0995c55a97d8</testSuiteGuid>
    <testCaseLink>
-      <guid>7ad343c4-58b8-4e3c-b8d6-c8f652e916cd</guid>
+      <guid>8f6db1ee-0291-48ad-bfbe-2d37e27b1f8c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LoginPage/TC01-TestLogin</testCaseId>
+      <testCaseId>Test Cases/LoginPage/TC03-LokedOutUser</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>c7ce3fe7-f5b0-45b0-844a-423f83c575b8</variableId>
+         <variableId>2e9ecfbb-7dc1-450a-b424-151df557722c</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>8516e529-b074-41ba-850b-c0e1d8af97de</variableId>
+         <variableId>57d6a7f2-08f2-4e9f-868f-27e8676a0a25</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>920c82b4-4dc6-4266-b3b0-e0ef6d52758f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4d9bd582-04bb-4000-9ba6-fd73882a4b5a</variableId>
+         <variableId>9d4f9090-f4f9-4709-85e7-d3726ea4e9c6</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>88aa1efd-f5c7-40f8-9108-44425d6066ee</guid>
+      <guid>c9430e79-42da-41e9-9d6a-e24868466a32</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LoginPage/TC02-TestInvalidCredentials</testCaseId>
+      <testCaseId>Test Cases/LoginPage/TC04-AddSimpleItemToCart</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
          <value></value>
-         <variableId>a1e3e0a3-afed-4ef3-b7a2-386788aee5a4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>6b5ad358-25d1-4b70-99c8-8fee25083067</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>65dcefbe-7950-4fd2-beb8-225d5cd6696a</variableId>
+         <variableId>da6837f9-28c2-4d5f-9014-425e003bce5a</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
