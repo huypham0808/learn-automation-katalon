@@ -23,19 +23,21 @@ def txtLastNameCheckout = findTestObject('Object Repository/CheckoutPageStep1/La
 def txtPostalCode = findTestObject('Object Repository/CheckoutPageStep1/PostalCode')
 def btnContinue = findTestObject('Object Repository/CheckoutPageStep1/ContinueButton')
 
+int postalCodenumber = 123456
+
 WebUI.setText(txtFirstNameCheckout, firstNameValue)
 WebUI.setText(txtLastNameCheckout, lastNameValue)
-int postalCodenumber = 123456
 String postalCodeValue = postalCodenumber.toString()
 WebUI.setText(txtPostalCode, postalCodeValue )
 
 'Step 5: Click continue button'
 WebUI.click(btnContinue)
 
-'Step 6" click finish button'
+'Step 6: click finish button'
 def btnFinish = findTestObject('Object Repository/CheckoutPageStep2/FinishButton')
 WebUI.click(btnFinish)
 
+'Step 7: Compare actual value and expected value'
 def checkoutCompleteTitle = findTestObject('Object Repository/CheckoutPageStep2/CompleteMessageCheckout')
 def actualMessageComplete = WebUI.getText(checkoutCompleteTitle)
 

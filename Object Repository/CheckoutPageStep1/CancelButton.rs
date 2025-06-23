@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CancelButton</name>
+   <tag></tag>
+   <elementGuidId>aae28674-f8e7-4983-834c-2470a4477e25</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>button[name=cancel]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>button[name=cancel]</value>
+      <webElementGuid>66382a2e-5db1-4364-bbd4-8ff655d1fb59</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

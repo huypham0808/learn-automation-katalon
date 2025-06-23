@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08-CancelCheckoutProcess</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dfd2657a-5ed7-4787-b7db-2fe317a2cc04</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b26e3d5-e77d-482d-b0b8-fbcdf1756e0c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://www.saucedemo.com/cart.html'</defaultValue>
+      <description></description>
+      <id>3b26e3d5-e77d-482d-b0b8-fbcdf1756e0c</id>
+      <masked>false</masked>
+      <name>expectedUrlLink</name>
+   </variable>
+</TestCaseEntity>
