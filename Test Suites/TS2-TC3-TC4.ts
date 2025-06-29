@@ -40,7 +40,7 @@
       <guid>c9430e79-42da-41e9-9d6a-e24868466a32</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/LoginPage/TC04-AddSimpleItemToCart</testCaseId>
+      <testCaseId>Test Cases/Others/TC04-AddSimpleItemToCart</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
