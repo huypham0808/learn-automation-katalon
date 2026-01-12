@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>TS1</name>
+   <name>TS1-TC1-TC2</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -34,12 +34,6 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>920c82b4-4dc6-4266-b3b0-e0ef6d52758f</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4d9bd582-04bb-4000-9ba6-fd73882a4b5a</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC09-CheckSortFunctionality</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f8b1d72a-efc4-432f-9334-d3abe1f4d2f1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>03a2f12b-2de3-4e82-ac3b-08b6aa451a59</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'lohi'</defaultValue>
+      <description></description>
+      <id>03a2f12b-2de3-4e82-ac3b-08b6aa451a59</id>
+      <masked>false</masked>
+      <name>lohiValue</name>
+   </variable>
+</TestCaseEntity>

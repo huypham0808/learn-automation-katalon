@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>CheckoutButton</name>
+   <tag></tag>
+   <elementGuidId>436ba368-84ef-48c3-a5bf-9c230251fe51</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>button[name=&quot;checkout&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>css</name>
+      <type>Main</type>
+      <value>button[name=&quot;checkout&quot;]</value>
+      <webElementGuid>94774e31-0bc2-4cac-a4b5-76944810c5f2</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

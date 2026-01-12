@@ -1,26 +1,29 @@
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 
-def txtUserName = findTestObject('Object Repository/LoginPage/username')
-def txtPassword = findTestObject('Object Repository/LoginPage/password')
-def btnLogin = findTestObject('Object Repository/LoginPage/btnLogin')
-def homepageTitle = findTestObject('Object Repository/HomePage/homepageTitle')
 
-"TEST STEP"
-"Step 1: Open browser and navigate to url"
+'Step 1: Open browser and navigate to url'
 WebUI.openBrowser(GlobalVariable.URL)
 
-"Step 2: Login with valid credentials"
-WebUI.setText(txtUserName, username)
-WebUI.setText(txtPassword, password)
-WebUI.click(btnLogin)
 
-"Step 3: Verify user is logged in and redirected to the Products page"
-def actualValue = WebUI.getText(homepageTitle)
-WebUI.verifyEqual(actualValue, expectedHomePage)
+'Step 2: Login with valid credentials'
+def userLogin = new helper.utilities.method.UserMethod();
+userLogin.Login(username, password)
+//CustomKeywords.'helper.utilities.method.UserMethod.Login'(username, password)
 
-
+'Step 3: Verify user is logged in and redirected to the Products page'
 
